@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #282d31;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bolder;
+    font-size: 36px;
+    color: whitesmoke;
+    margin: 0;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid whitesmoke;
+}
+
+header a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.hero {
+    background-image: url("./Images/hero-image.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    height: 170px;
+    
+}
+
+.hero-sub {
+    width: 30%;
+    text-align: left;
+    margin: 5% 70% 0 0;
+    color: whitesmoke;
+    background: #282d31;
+}
+
+.hero-sub h2 {
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.about-me {
+    display: flex;
+    padding-top: 15px;
+    margin: 40px;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: normal;
+    margin: 20px;
+    display: flex;
+
+}
+
+.content {
+    display: flex;
+    margin: 20px;
+    font-size: 18px;
+    border-left: 3px solid;
+    padding-left: 20px;
+    width: auto;
+}
+
+.work {
+    display: flex;
+    padding-top: 15px;
+    margin: 40px;
+    position: relative;
+    flex-wrap: wrap;
+    flex: 50%;
+}
+
+.work-feature {
+    display: table-footer-group;
+    margin: 20px;
+    padding-left: 20px;
+    border-left: 3px solid;
+}
+
+.work-feature img {
+    height: 400px;
+    width: auto;
+    display: flex;
+}
+
+.work-feature img:hover {
+    opacity: .8;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 500px;
+    padding: 15px;
+    background-color:#282d31;
+    text-decoration: none;
+    color: whitesmoke
+}
+
+.flex-box {
+    width: 125px;
+}
+
+.work-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-links img {
+    height: 200px;
+    width: auto;
+    padding: 10px 10px 10px 0;
+}
+
+.column {
+    flex-basis: 100%;
+}
+
+.link-text {
+    position: absolute;
+    background-color: #282d31;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    bottom: 45px;
+}
+
+.link-text-top {
+    position: absolute;
+    background-color: #282d31;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    bottom: 250px;
+}
